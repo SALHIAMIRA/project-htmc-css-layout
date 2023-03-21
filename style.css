@@ -1,0 +1,146 @@
+.sect1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.intro{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 20px;
+}
+.sect1 h1{
+    color: aquamarine;
+}
+.sect2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.patient{
+    background-color:hotpink ;
+}
+.doctor{
+    background-color:mediumvioletred ;
+}
+.clinic{
+    background-color: mediumpurple;
+}
+.partie{
+    height: 300px;
+    border-radius: 7px;
+    padding:20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+select{
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+
+}
+option{
+    color:gray;
+}
+.sect1{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px; ;
+}
+.sect2{
+    width: 70%;
+    margin: auto;
+}
+.sect3{
+    background-color: #1a998e;
+    height: 600px;
+    margin-top: 50px;
+    position: relative;
+
+}
+.platforms{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+.stats{
+    color: #00b39b;
+    font-weight: 100%;
+    
+}
+.stats p{
+    color:gray;
+}
+.logo{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.card{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.card h1{
+    color: #00b39b;
+    font-weight: 100%;
+
+}
+.card p{
+    color: gray;
+}
+.translate{
+    transform: translateY(20px);
+
+}
+
+@media (max-width:500px) {
+    .intro{
+        display: grid;
+        grid-template-columns:100;
+    }
+    .sect2{
+        width:100%;
+        
+    }
+    .sect1 h1{
+        text-align: center;
+    }
+    .sect2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid: gap 20px;
+    }
+    .sect2{
+        width: 100%;
+    }
+        
+}
+.sect3{
+    background-color:#dff8f6;
+    height: 600px;
+    margin: 50px;
+}
+.platforms{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:20px;
+    width: 70%;
+    margin: auto;
+}
+
